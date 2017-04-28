@@ -58,5 +58,5 @@ print(dateString)
 ```
 
 ### まとめ
-DateFormatterで固定のカスタムフォーマットを利用する場合は、暦法や24時間表示のON/OFFの設定の影響を受けないように`locale`に`Locale(identifier: "en_US_POSIX")`を設定するようにしましょう。
+DateFormatterで固定のカスタムフォーマットを利用する場合は、暦法や24時間表示のON/OFFの設定の影響を受けないように`locale`に`Locale(identifier: "en_US_POSIX")` もしくは `Locale(identifier: "ja_JP")`を設定するようにしましょう。
 
