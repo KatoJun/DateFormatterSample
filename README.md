@@ -69,10 +69,13 @@ print(dateString)
 
 // Localeがja_JP@calendar=japanese (current)、暦法が和暦、24時間表示OFFの場合
 // 0029-04-28 14午後2:16
+
 // Localeがja_JP (current)、暦法が西暦、24時間表示OFFの場合
 // 2017-04-28 14午後2:20
+
 // Localeがja_JP(fixed)、暦法が和暦、24時間表示OFFの場合
 // 2017-04-28 14:16
+
 // Localeがen_US_POSIX(fixed)、暦法が和暦、24時間表示OFFの場合
 // 2017-04-28 14:17
 ```
