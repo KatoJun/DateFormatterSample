@@ -10,7 +10,15 @@ DateFormatterのLocaleに関して検証したリポジトリです。
 
 ### 事前知識
 
-- 暦法が和暦の場合、ロケールは明示的に設定しない場合「ja_JP@calendar=japanese」になる。
+- 暦法が和暦の場合、ロケールは明示的に設定しない場合「ja_JP@calendar=japanese (current)」になる。
+
+```
+▿ Optional<Locale>
+  ▿ some : ja_JP@calendar=japanese (current)
+    - identifier : "ja_JP@calendar=japanese"
+    - kind : "current"
+```
+
 - 暦法が西暦の場合、ロケールは明示的に設定しない場合「ja_JP (current)」になる。
 
 ```
