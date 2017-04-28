@@ -18,7 +18,6 @@ dateFormatter.timeStyle = .none
 let formattedDateString = dateFormatter.string(from: Date())
 print(formattedDateString)
 
-
 // Localeがja_JP (current)、暦法が西暦（グレゴリオ暦）の場合
 // 2017/04/28
 
@@ -57,6 +56,6 @@ print(dateString)
 //   - kind : "fixed"
 ```
 
-### まとめ
+## まとめ
 DateFormatterで固定のカスタムフォーマットを利用する場合は、暦法や24時間表示のON/OFFの設定の影響を受けないように`locale`に`Locale(identifier: "en_US_POSIX")` もしくは `Locale(identifier: "ja_JP")`を設定するようにしましょう。
 
