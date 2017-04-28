@@ -22,7 +22,7 @@ print(formattedDateString)
 // Localeがja_JP (current)、暦法が西暦（グレゴリオ暦）の場合
 // 2017/04/28
 
-// Localeがja_JP (current)、暦法が和暦の場合
+// Localeがja_JP@calendar=japanese (current)、暦法が和暦の場合
 // H29/04/28
 // ※暦法が和暦の場合でもロケールに"en_US_POSIX"を指定した場合は「Apr 28, 2017」になる
 ```
